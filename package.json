@@ -1,0 +1,22 @@
+{
+  "name": "keyfi-pro-script",
+  "version": "0.0.1",
+  "description": "KeyFi Pro Script is for getting tokens data from coingecko and updating tokens in DB every one minutes on AWS lambda",
+  "main": "app.js",
+  "repository": "git@github.com:KEYFIAI/keyfi-pro-script.git",
+  "author": "Saber Chabbi <saberchabbi.dev@gmail.com>",
+  "license": "",
+  "scripts": {
+    "start": "node scripts/app.js",
+    "dev": "node scripts/app.js"
+  },
+  "private": true,
+  "dependencies": {
+    "apisauce": "^2.0.1",
+    "aws-serverless-express": "^3.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {}
+}
